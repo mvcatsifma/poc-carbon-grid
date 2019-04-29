@@ -1,0 +1,50 @@
+/* Small */
+@media screen {
+    .sm {
+        display: inherit;
+    }
+
+    .md {
+        display: none;
+    }
+
+    .lg {
+        display: none;
+    }
+}
+
+/* Medium */
+@media screen and (min-width: 42rem) {
+    .sm {
+        display: none;
+    }
+
+    .md {
+        display: inherit;
+    }
+
+    .lg {
+        display: none;
+    }
+}
+
+/* Large */
+@media screen and (min-width: 66rem) {
+    .sm {
+        display: none;
+    }
+
+    .md {
+        display: none;
+    }
+
+    .lg {
+        display: inherit;
+    }
+}
+
+.rect {
+    fill: rgb(0, 0, 255);
+    stroke-width: 3;
+    stroke: rgb(0, 0, 0)
+}
